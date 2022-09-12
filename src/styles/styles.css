@@ -1,38 +1,38 @@
 .next, .prev {
-    display: none;
-  }
-  
-  .react-paginate-container {
-    padding: 0;
-    margin: 0;
-    left: 50%;
-    position: absolute;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
-    bottom: 20px;
-    list-style-type: none;
-  }
-  
-  .page-item {
-    color: black !important;
-    cursor: pointer;
-    text-align: center;
-    width: 22px;
-    height: 25px;
-    border-radius: 4px;
-  }
-  
-  .link{
-    width: 100%;
-    height: 100%;
-  }
+  display: none;
+}
 
-  .search-sort {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    margin:0 auto;
-    transform: translateX(-10px);
-    justify-content: center;
-  }
+.react-paginate-container {
+  padding: 0;
+  margin: 0;
+  left: 50%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  bottom: 20px;
+  list-style-type: none;
+}
+
+.page-item {
+  color: black !important;
+  cursor: pointer;
+  text-align: center;
+  width: 22px;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.link{
+  width: 100%;
+  height: 100%;
+}
+
+.search-sort {
+  display: flex;
+  flex-direction: row;
+  width: 70%;
+  margin:0 auto;
+  transform: translateX(-10px);
+  justify-content: center;
+}
